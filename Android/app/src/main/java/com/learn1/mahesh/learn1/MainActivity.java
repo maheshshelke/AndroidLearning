@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher{
         setContentView(R.layout.activity_main);
 
         nameText = findViewById(R.id.editTextForm1Name);
-        
+
         nameText.addTextChangedListener(this);
     }
 

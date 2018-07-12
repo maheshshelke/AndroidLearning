@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.learn1.mahesh.learn1.MainActivity">
 
 
     <LinearLayout
@@ -16,8 +16,8 @@
             android:id="@+id/Form1TitleTextView"
             android:layout_width="match_parent"
             android:layout_height="41dp"
-            android:textSize="32dp"
-            android:text="@string/form1Title" />
+            android:text="@string/form1Title"
+            android:textSize="32dp" />
 
         <EditText
             android:id="@+id/editTextForm1Name"
